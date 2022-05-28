@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:21:28 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 500 2399
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:23:49 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 500 3883
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:25:01 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 500 3337
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:25:37 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 15288
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:25:37 +0530] "GET /styletwo/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:25:37 +0530] "GET /styletwo/images/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:26:00 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 15298
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:26:03 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 15298
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:26:05 +0530] "GET /styletwo/DesignationAddForm.jsp HTTP/1.1" 200 1741
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:28:33 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 15260
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:28:35 +0530] "GET /styletwo/DesignationAddForm.jsp HTTP/1.1" 200 1703
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:28:43 +0530] "POST /styletwo/AddDesignation.jsp HTTP/1.1" 200 1367
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:29:56 +0530] "POST /styletwo/AddDesignation.jsp HTTP/1.1" 200 1731
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:29:59 +0530] "POST /styletwo/AddDesignation.jsp HTTP/1.1" 200 1458
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:30:26 +0530] "GET /styletwo/ HTTP/1.1" 200 1140
+0:0:0:0:0:0:0:1 - - [21/Apr/2022:21:30:28 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 15783

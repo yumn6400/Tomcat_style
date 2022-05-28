@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:08:41 +0530] "GET /stylethree/ HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:08:51 +0530] "POST /stylethree/Login.jsp HTTP/1.1" 200 1436
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:08:51 +0530] "GET /stylethree/images/main-user.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:08:54 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 22088
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:08:56 +0530] "GET /stylethree/index.jsp HTTP/1.1" 200 1436
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:00 +0530] "GET /stylethree/logout HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:07 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:10 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:10 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:10 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:11 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:11 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:11 +0530] "GET /stylethree/Designations.jsp HTTP/1.1" 200 2385
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:00:09:21 +0530] "POST /stylethree/Login.jsp HTTP/1.1" 200 1436

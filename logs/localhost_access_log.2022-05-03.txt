@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:23 +0530] "GET /styletwo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:24 +0530] "GET /styletwo/ HTTP/1.1" 200 1140
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:26 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 8206
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:47 +0530] "GET /styletwo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:47 +0530] "GET /styletwo/ HTTP/1.1" 200 1140
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:47 +0530] "GET /styletwo/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:49 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 21566
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:37:52 +0530] "GET /styletwo/EmployeesView.jsp HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:38:04 +0530] "GET /styleone/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:38:04 +0530] "GET /styleone/images/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:38:07 +0530] "GET /styleone/designationsView HTTP/1.1" 200 21616
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:38:15 +0530] "GET /styleone/employeesView HTTP/1.1" 200 6131
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:38:23 +0530] "GET /styleone/getEmployeeAddForm HTTP/1.1" 200 9458
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:39:09 +0530] "POST /styleone/addEmployee HTTP/1.1" 200 1734
+0:0:0:0:0:0:0:1 - - [03/May/2022:18:39:11 +0530] "GET /styleone/employeesView? HTTP/1.1" 200 6856

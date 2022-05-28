@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:31:33 +0530] "GET /stylethree/DesignationAddForm.jsp HTTP/1.1" 200 1625
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:31:33 +0530] "GET /stylethree/css/Styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:31:33 +0530] "GET /stylethree/js/DesignationAddForm.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:31:43 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1212
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:34:09 +0530] "GET /stylethree/DesignationAddForm.jsp HTTP/1.1" 200 1625
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:34:16 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1574
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:35:11 +0530] "GET /stylethree/DesignationAddForm.jsp HTTP/1.1" 200 1625
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:35:17 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1474
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:36:29 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1663
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:09:36:33 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1476
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:22:52 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1663
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:22:57 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1665
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:23:00 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 404 743
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:24:26 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1480
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:24:38 +0530] "GET /stylethree/DesignationAddForm.jsp? HTTP/1.1" 200 1625
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:24:44 +0530] "POST /stylethree/AddDesignation.jsp HTTP/1.1" 200 1480
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:10:24:46 +0530] "GET /stylethree/DesignationsView.jsp? HTTP/1.1" 404 750

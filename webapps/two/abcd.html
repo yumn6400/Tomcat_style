@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>My Second Web Application</title>
+<script>
+function validateForm(frm)
+{
+var nn=frm.name.value.trim();
+if(nn.length==0)
+{
+alert('Name required');
+return false;
+}
+return true;
+}
+</script>
+</head>
+<body>
+<center>
+<form action='/two/aaa' onsubmit='return validateForm(this)'>
+Name
+<input type='text' id='name' name='name'><br>
+<button type='submit'>Ok</button>
+</form>
+</center>
+</body>
+</html>
