@@ -16,5 +16,5 @@ Designation
 <button type='submit'>Add</button>
 <button type='Button' onclick='cancelAddition()'>Cancel</button>
 </form>
-<form id='cancelAdditionForm' action='/stylefour/DesignationsView.jsp'>
+<form id='cancelAdditionForm' action='/styletwo/DesignationsView.jsp'>
 <jsp:include page='/MasterPageBottomSection.jsp'/>

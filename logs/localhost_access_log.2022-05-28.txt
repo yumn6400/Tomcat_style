@@ -114,3 +114,13 @@
 0:0:0:0:0:0:0:1 - - [28/May/2022:17:29:46 +0530] "GET /stylethree/ HTTP/1.1" 404 766
 0:0:0:0:0:0:0:1 - - [28/May/2022:17:40:17 +0530] "GET /stylethree HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [28/May/2022:17:40:18 +0530] "GET /stylethree/ HTTP/1.1" 500 4301
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:29:54 +0530] "GET /styletwo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:29:54 +0530] "GET /styletwo/ HTTP/1.1" 200 1140
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:29:59 +0530] "GET /styletwo/DesignationsView.jsp HTTP/1.1" 200 21566
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:30:02 +0530] "GET /styletwo/confirmDeleteDesignation?code=122 HTTP/1.1" 200 1519
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:30:02 +0530] "GET /styletwo/js/ConfirmDeleteDesignation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:31:06 +0530] "GET /styletwo/editDesignation?code=122 HTTP/1.1" 200 1683
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:31:06 +0530] "GET /styletwo/js/DesignationEditForm.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:31:09 +0530] "GET /styletwo/EmployeesView.jsp HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:31:23 +0530] "GET /styletwo/confirmDeleteDesignation?code=102 HTTP/1.1" 200 1521
+0:0:0:0:0:0:0:1 - - [28/May/2022:19:31:25 +0530] "POST /styletwo/DeleteDesignation.jsp HTTP/1.1" 200 1250
