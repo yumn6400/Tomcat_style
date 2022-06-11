@@ -9,21 +9,34 @@ public void doPost(HttpServletRequest request,HttpServletResponse response)
 {
 try
 {
-AdministrationBean administrationBean=(AdministrationBean)request.getAttribute("AdministrationBean");
-String username=administrationBean.getUsername();
-String password=administrationBean.getPassword();
-AdministrationDAO administrationDAO=new AdministrationDAO();
-AdministrationDTO administrationDTO=null;
+AdministratorBean administratorBean=(AdministratorBean)request.getAttribute("AdministratorBean");
+if(administratorBean==null)
+{
+RequestDispatcher requestDispatcher=request.getRequestDispatcher("/LoginForm.jsp");
+requestDispatcher.forward(request,response);
+return;
+}
+String username=administratorBean.getUsername();
+String password=administratorBean.getPassword();
+AdministratorDAO administratorDAO=new AdministratorDAO();
+AdministratorDTO administratorDTO=null;
 try
 {
-administrationDTO=administrationDAO.getByUsername(username);
-String pwd=administrationDTO.getPassword();
-if(pwd.equals(password))
+administratorDTO=administratorDAO.getByUsername(username);
+String pwd=administratorDTO.getPassword();
+if(pwd.equals(password)==false)
 {
-RequestDispatcher requestDispatcher;
-requestDispatcher=request.getRequestDispatcher("/index.jsp");
+ErrorBean errorBean=new ErrorBean();
+errorBean.setError("Invalid username or password");
+request.setAttribute("errorBean",errorBean);
+RequestDispatcher requestDispatcher=request.getRequestDispatcher("/LoginForm.jsp");
 requestDispatcher.forward(request,response);
+return;
 }
+HttpSession session=request.getSession();
+session.setAttribute("username","username");
+RequestDispatcher requestDispatcher=request.getRequestDispatcher("/index.jsp");
+requestDispatcher.forward(request,response);
 }catch(DAOException daoException)
 {
 ErrorBean errorBean=new ErrorBean();
@@ -34,7 +47,6 @@ requestDispatcher.forward(request,response);
 }
 }catch(Exception exception)
 {
-System.out.println(exception);
 RequestDispatcher requestDispatcher=request.getRequestDispatcher("/ErrorPage.jsp");
 try
 {

@@ -13,6 +13,13 @@
 <div class='header'>
 <a href='/styletwo/index.jsp'><img src='/styletwo/images/logo.png' class='logo'></a>
 <div class='brand-name'>Thinking Machines</div>
+
+<div class='username'>
+<img src='/styletwo/images/user.png'/>
+${username}
+<a href='/styletwo/logout'>Logout</a>
+</div>
+
 </div> <!-- header ends here -->
 <!-- Container section starts here -->
 <div class='content'>
